@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Le restaurant sans poisson sans fruit de mer sur Paris">
+    <meta name="keywords" content="Restaurant, paris">
+    <title>Restaurant sans poisson; nous contacter</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="recette.html">Recette</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Nous contacter</h1>
+    <form action="contact.html">
+        <fieldset>
+            <legend>Nous contacter</legend>
+            <div>
+                <label for="emailinput">Votre email</label>
+                <input type="email" name="email" id="emailinput" placeholder="elise@gmail.com" required>
+            </div>
+            <div>
+                <label for="fileinput">Pièce jointe</label>
+                <input type="file" name="file" id="fileinput">
+            </div>
+            <div>
+                <label for="nameinput">Votre nom</label>
+                <input type="password" name="Lastname" id="nameinput">
+            </div>
+            <div>
+                <label>sexe</label>
+                <div>
+                    <input type="radio" name="sexe" id="Feminin" checked>
+                    <label for="feminin">Féminin</label>
+                </div>
+                <div>
+                    <input type="radio" name="sexe" id="Masculin">
+                    <label for="Masculin">Masculin</label>
+                </div>
+                <div>
+                    <label id="animal">Votre animal préféré</label>
+                    <select name="animal" id="animal">
+                        <optgroup label="Mammifère">
+                            <option>Chat</option>
+                            <option>Chien</option>
+                            <option>Serpent</option>
+                        </optgroup>
+                        <optgroup label="Poisson">
+                                <option>Poisson-chat</option>
+                                <option>Dauphin</option>
+                                <option>nemo</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Votre message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Envoyer un email">
+            <input type="reset" value="Annuler">
+        </fieldset>
+    </form>
+    <button>Envoyer votre réponse</button>
+</body>
+
+</html>
