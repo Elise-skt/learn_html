@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Les Recette du restaurant sans poisson; paris</title>
 </head>
+
 <body>
     <h1>Recettes</h1>
     <h2>Les recettes d'été</h2>
     <ul>
-        <li><a href="recette/recette_1.html">recette 1</a></li>
-        <li>recette 2</li>
+        <li><a href="recette/recette_1.html">Poulet Basquaise</a></li>
+        <li>Soupe</li>
         <li>recette 3</li>
     </ul>
     <h2>Les recettes d'hiver</h2>
@@ -18,7 +20,78 @@
         <li>recette 2</li>
         <li>recette 3</li>
     </ul>
-    <p><h1>Ingrédients</h1></p>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="3">Préparation</td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th colspan="2">Plat</th>
+            <td>Temps</td>
+
+        </tr>
+        <tr>
+            <td><img src="img/poulet.jpeg" alt="photo du poulet Basquaise"></td>
+            <th>Poulet</th>
+            <td>50 min</td>
+        </tr>
+        <tr>
+            <td colspan="3"> Autres</td>
+        </tr>
+        <tr>
+            <td><img src="img/soupe.jpg" alt="photo de la soupe"></td>
+            <th>Soupe</th>
+            <td>10 min</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"> <em> Tous les temps indiqués sont en minutes</em> </td>
+            </tr>
+        </tfoot>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom du Produit</th>
+                <th>Prix HT</th>
+                <th>Quantité</th>
+                <th>Prix TTC</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Plat1</th>
+                <td>5</td>
+                <td>3</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th>Plat2</th>
+                <td>5</td>
+                <td>3</td>
+                <td>20</td>
+            </tr> 
+        </tbody>                 
+        <tfoot>
+            <tr>
+                <td colspan="2" rowspan="2"></td>       
+                <th>Total</th>
+                <td>100€</td>               
+            </tr>
+            <tr>
+                <th>Total TTC</th>
+                <td>120€</td>
+            </tr>
+
+        </tfoot>
+    </table>
+    <p>
+        <h1>Ingrédients</h1>
+    </p>
     <p><a href="index.html">Voici les ingrédients</a></p>
 </body>
+
 </html>
